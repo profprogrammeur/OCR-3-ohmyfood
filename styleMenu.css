@@ -1,0 +1,59 @@
+
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    height:85vh;
+    justify-content: space-evenly;
+}
+
+.mainImage {
+    height:70vh;    
+    box-shadow:0 0 10px grey;
+    justify-content: center;
+    z-index:3;
+}
+
+.mainImageDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: x-large ;
+    font-weight: bolder;
+}
+
+/* @media all and (max-width: 500px) {    
+    .mainImage {
+        width:100vw;
+        }
+} */
+
+
+/*////////// animated underline for menu-parts ////////*/
+
+.menu-part {
+    position: absolute;
+    top: 38.5vh;
+    left: 43vw;
+    height:10vh;
+    width: 20vw;
+    z-index: 6;
+}
+
+.line {    
+    height: 5px;
+    width: 0vw;
+    background-color: red;
+    transition: 1s ease all .3s;
+    z-index: 5;
+}
+
+.menu-part:hover .line {
+    width: 15vw;
+    transition: 1s ease all;
+}
+
+
