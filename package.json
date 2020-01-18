@@ -1,0 +1,19 @@
+{
+  "name": "projet-3-bem",
+  "version": "1.0.0",
+  "description": "add sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/menu1.scss:./css/menu1.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profprogrammeur/OCR-3-ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/profprogrammeur/OCR-3-ohmyfood/issues"
+  },
+  "homepage": "https://github.com/profprogrammeur/OCR-3-ohmyfood#readme"
+}

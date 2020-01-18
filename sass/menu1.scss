@@ -1,0 +1,94 @@
+.menu1-full {
+    height: 1684px;
+    width: 1190px;
+    background-color: #FCDFDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    padding:3% 0 3% 0;
+
+}
+
+
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    width: 80%; 
+}
+
+.article__title {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    
+
+}
+
+.article__title-line {
+    width:250px;
+}
+
+.article__title-text {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.article__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:5%;
+}
+
+.article__content__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    margin:1%;
+}
+
+.article__content__item__price {
+    font-weight: bold;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu__note {
+    height: 100px;
+}
+
+.header-menu__title {
+    font-family: 'Devonshire', cursive;
+    font-size: 2em;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu__note {
+    height: 50px;
+    margin-right: 1em;
+}
+
+.footer-menu__title {
+    font-family: 'Devonshire', cursive;
+    font-size: 1.6em;
+}
