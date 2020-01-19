@@ -88,4 +88,39 @@
   font-size: 1.6em;
 }
 
+@media all and (max-width: 500px) {
+  .header {
+    width: auto;
+  }
+
+  .mainImage {
+    width: 100vw;
+  }
+
+  .menu1-full {
+    width: 100vw;
+    height: auto;
+  }
+
+  .menu-title {
+    width: 100%;
+  }
+
+  .article__title-line {
+    width: 10%;
+  }
+
+  .header-menu__note {
+    height: auto;
+  }
+
+  .footer-menu__note {
+    height: auto;
+  }
+
+  .footer {
+    height: 5vh;
+  }
+}
+
 /*# sourceMappingURL=menu1.css.map */

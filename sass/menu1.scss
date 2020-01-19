@@ -8,9 +8,8 @@
     align-items: center;
     font-family: 'Kalam', cursive;
     padding:3% 0 3% 0;
-
+ 
 }
-
 
 
 .article {
@@ -26,8 +25,6 @@
     display: flex;
     justify-content: space-between;
     width:100%;
-    
-
 }
 
 .article__title-line {
@@ -91,4 +88,41 @@
 .footer-menu__title {
     font-family: 'Devonshire', cursive;
     font-size: 1.6em;
+}
+
+@media all and (max-width: 500px) {
+    .header {
+        width: auto;
+    }
+    
+    .mainImage {
+        width: 100vw;
+    }
+
+    .menu1-full {
+        width: 100vw;
+        height: auto;
+    }
+    .menu-title {
+        width: 100%;
+    }
+
+    .article__title-line {
+        width: 10%;
+    }
+
+    .header-menu__note {
+        height: auto;
+        // height: 100px;
+    }
+    .footer-menu__note {
+        height: auto;
+        // height: 50px;
+        // margin-right: 1em;
+    }
+    .footer {
+        height: 5vh;
+    }
+
+
 }
