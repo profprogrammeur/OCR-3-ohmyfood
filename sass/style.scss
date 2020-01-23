@@ -82,8 +82,6 @@ button {
   margin-right: 30%;
 }
 
-
-
 .mainImage {
   display: flex;
   justify-content: center;
@@ -177,8 +175,6 @@ button {
   font-size: 1.5em;
 }
 
-
-
 .loading:after {
   content: " .";
   animation: dots 1s steps(5, end) infinite;
@@ -245,10 +241,7 @@ button {
 }
 
 .wiggle {
-  /* left: calc(50% - 3em);
-  top: calc(50% - 2em); */
   transform-origin: 50% 5em;
-  /* margin: 0px 20px; */
 }
 
-@import 'index-media-queries.scss';
+@import "index-media-queries.scss";

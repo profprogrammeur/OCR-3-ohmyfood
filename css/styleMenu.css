@@ -1,13 +1,13 @@
 .background-color-menu1 {
-  background-color: #FCDFDB;
+  background-color: #fcdfdb;
 }
 
 .background-color-menu2 {
-  background-color: #FFF5FE;
+  background-color: #fff5fe;
 }
 
 .background-color-menu3 {
-  background-color: #EDEFEF;
+  background-color: #edefef;
 }
 
 .background-color-menu4 {
@@ -71,6 +71,9 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+.article .article__title .article__title-line {
+  width: 25%;
 }
 .article .article__content {
   display: flex;

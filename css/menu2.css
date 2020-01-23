@@ -1,17 +1,63 @@
-/* Error: expected "}".
- *    ,
- * 88 | // }@import 'menus-media-queries.scss';
- *    |                                        ^
- *    '
- *   sass\menu2.scss 88:40  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected \"}\".\a    \2577 \a 88 \2502  // }@import 'menus-media-queries.scss';\d\a    \2502                                         ^\a    \2575 \a   sass\\menu2.scss 88:40  root stylesheet";
+.header-menu .header-menu__title {
+  font-size: 2em;
+  font-family: "Laila", serif;
+  background: linear-gradient(135deg, #d8852e, #905BFD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
 }
+
+.article__starter {
+  color: #C67412;
+}
+.article__starter .article__title-line {
+  filter: invert(55%) sepia(41%) saturate(6882%) hue-rotate(15deg) brightness(97%) contrast(86%);
+}
+
+.article__main-course {
+  color: #A56799;
+}
+.article__main-course .article__title-line {
+  filter: invert(48%) sepia(18%) saturate(1014%) hue-rotate(260deg) brightness(93%) contrast(86%);
+}
+
+.article__dessert {
+  color: #6E4CCC;
+}
+.article__dessert .article__title-line {
+  filter: invert(36%) sepia(13%) saturate(7486%) hue-rotate(235deg) brightness(83%) contrast(91%);
+}
+
+.article .article__title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: "Adamina", serif;
+}
+.article .article__title .article__title-line--flip {
+  transform: scaleX(-1);
+}
+.article .article__title .article__title-text {
+  font-size: x-large;
+  font-weight: bold;
+}
+.article .article__content .article__content__item__description {
+  font-family: "Adamina", serif;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-menu .footer-menu__note {
+  height: 50px;
+  margin-right: 1em;
+}
+.footer-menu .footer-menu__title {
+  font-family: "Devonshire", cursive;
+  font-size: 1.6em;
+}
+
+/*# sourceMappingURL=menu2.css.map */
