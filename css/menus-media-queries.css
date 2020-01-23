@@ -1,0 +1,46 @@
+@media only screen and (max-width: 500px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    margin-bottom: 10%;
+    width: 100%;
+  }
+
+  .menu-title {
+    font-size: 1rem;
+  }
+
+  .header-menu {
+    font-size: 0.5rem;
+  }
+
+  .soon {
+    margin-top: 5%;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+
+  .menu-full {
+    height: auto;
+    width: 95%;
+  }
+
+  .article__content {
+    font-size: 0.8rem;
+  }
+
+  .article__title-text {
+    font-size: 0.8rem !important;
+    text-align: center;
+  }
+
+  span {
+    -webkit-mask-size: 80%;
+  }
+}
+
+/*# sourceMappingURL=menus-media-queries.css.map */

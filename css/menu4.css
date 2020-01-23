@@ -1,0 +1,28 @@
+.header-menu .header-menu__title {
+  font-size: 3em;
+  font-family: "Kaushan Script", cursive;
+  background: linear-gradient(135deg, #3d923a, #beff7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px;
+}
+
+span {
+  -webkit-mask: url(../svg/line-4.svg);
+  background: linear-gradient(135deg, #3d923a, #beff7f);
+  -webkit-mask-size: 300px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.article .article__title .article__title-line {
+  width: 400px;
+}
+.article .article__title .article__title-line--flip {
+  transform: scaleX(-1);
+}
+.article .article__title .article__title-text {
+  font-size: large;
+}
+
+/*# sourceMappingURL=menu4.css.map */

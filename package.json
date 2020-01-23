@@ -4,7 +4,7 @@
   "description": "add sass",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/menu2.scss:./css/menu2.css ./sass/menu3.scss:./css/menu3.css"
+    "sass": "sass --watch ./sass/index-media-queries.scss:./css/index-media-queries.css ./sass/style.scss:./css/style.css ./sass/menu4.scss:./css/menu4.css ./sass/menu2.scss:./css/menu2.css ./sass/menu3.scss:./css/menu3.css ./sass/menu1.scss:./css/menu1.css ./sass/styleMenu.scss:./css/styleMenu.css ./sass/menus-media-queries.scss:./css/menus-media-queries.css"
   },
   "repository": {
     "type": "git",

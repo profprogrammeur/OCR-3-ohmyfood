@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet" />
+    <link data-font="menu1" href="https://fonts.googleapis.com/css?family=Devonshire&display=swap" rel="stylesheet">
+    <link data-font="menu2" href="https://fonts.googleapis.com/css?family=Laila|Adamina&display=swap" rel="stylesheet">
+    <link data-font="menu3" href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link data-font="menu4" href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+        rel="stylesheet" />
+
     <title>ohmyfood</title>
 </head>
+
 <body>
-    <div class="container" >
+    <div class="container">
 
         <header class="header">
             <a href="index.html" class="logo-anchor">
@@ -20,12 +29,42 @@
 
 
         <main class="main">
-           
-             <a href="menu-1.html" class="a1 "><img class=" thumbnail menu1" src="Menus/menu-1b.png" alt="menu"></a>
-            <a href="menu-2.html" class="a2 "><img class=" thumbnail menu2" src="Menus/menu-2b.png" alt="menu"></a>
-            <a href="menu-3.html" class="a3 "><img class=" thumbnail menu3" src="Menus/menu-3b.png" alt="menu"></a>
-            <a href="menu-4.html" class="a4 "><img class=" thumbnail menu4" src="Menus/menu-4b.png" alt="menu"></a>           
-        
+
+
+            <a href="menu1sass.html" class="thumbnail-container background-color-menu1">
+                <div class="menu__thumbnail ">
+                    <img class="header-menu__note" src="svg/note.svg" alt="note">
+                    <div class="menu1__thumbnail--title">La note enchantée</div>
+                    <div class="menu1__thumbnail--subtitle">Menu</div>
+                </div>
+            </a>
+
+            <a href="menu2sass.html" class="thumbnail-container background-color-menu2">
+                <div class="menu__thumbnail">
+                    <div class="menu2__thumbnail--title">Le chic á la française</div>
+                    <div class="menu2__thumbnail--subtitle">Menu</div>
+                </div>
+            </a>
+            <a href="menu3sass.html" class="thumbnail-container background-color-menu3">
+                <div class="menu__thumbnail">
+                    <div class="menu3__thumbnail--title">Le délice des papilles</div>
+                    <div class="menu3__thumbnail--subtitle">Menu</div>
+                </div>
+            </a>
+            <a href="menu4sass.html" class="thumbnail-container background-color-menu4">
+                <div class="menu__thumbnail">
+                    <div class="menu4__thumbnail--title">La palette du goût</div>
+                    <div class="menu4__thumbnail--subtitle">Menu</div>
+                </div>
+            </a>
+
+
+
+
+            <!-- </div> -->
+
+
+
             <div class="soon">
                 <button class="soon-button loading">
                     Prochainement
@@ -42,15 +81,16 @@
                 </button>
             </a>
 
-            <a href ="mailto: contact@profprogrammeur.com">
+            <a href="mailto: contact@profprogrammeur.com">
                 <button class="contact wiggle">
                     Contactez-nous
                 </button>
-            </a>            
+            </a>
         </footer>
 
 
     </div>
 
 </body>
+
 </html>

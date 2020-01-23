@@ -1,53 +1,70 @@
-
 .container {
-    /* height: 2000px; */
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
 .header {
-    /* height:12vh; */
-    /* flex:1 0 auto; */
     width: 100%;
-
 }
 
-.footer {
-    height:7vh;
-    position: fixed;
-    width: 100%;
-    bottom:0;
+.menu1-full {
+    height: 1684px;
+    width: 1190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    padding: 3% 0 3% 0;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 3%;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-menu {
     display: flex;
     flex-direction: column;
-    /* height:75vh; */
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 10% ;
+    padding-bottom: 10%;
     width: auto;
 }
 
-/* .mainImage {
-    height:70vh;    
-    box-shadow:0 0 10px grey;
-    justify-content: center;
-    z-index:3;
-} */
-
-.mainImageDiv {
+.article {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 5%;
+    width: 80%;
+
+    .article__title {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
 }
 
-.menu-title {
-    text-align: center;
-    font-size: x-large ; 
-    font-weight: bolder;
-    margin: 3%;
+.footer {
+    height: 7vh;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
+
+
 
 /* @media all and (max-width: 500px) {    
     .mainImage {
@@ -79,5 +96,3 @@
     width: 15vw;
     transition: 1s ease all;
 } */
-
-

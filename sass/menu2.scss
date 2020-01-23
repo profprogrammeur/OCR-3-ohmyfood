@@ -1,18 +1,22 @@
-.menu1-full {
-    height: 1684px;
-    width: 1190px;
-    background-color: #FFF5FE;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Kalam', cursive;
-    padding: 3% 0 3% 0;
-    box-shadow: 0 0 10px grey;
+// @import 'styleMenu.scss';
+
+
+
+// MENU'S HEADER
+
+.header-menu {
+    .header-menu__title {
+        font-size: 2em;
+        font-family: 'Laila', serif;
+        background: linear-gradient(135deg, #d8852e, #905BFD);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bolder;
+    }
 }
 
-.menu-title {}
 
+// SPECIAL COLOR STYLES FOR LINES AND ARTICLE__TITLE
 
 .article__starter {
     color: #C67412;
@@ -38,32 +42,18 @@
     }
 }
 
-
-
-$menu2-orange:#C67412;
-
+// MAIN STYLES FOR ARTICLES
 .article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
-    width: 80%;
-
     .article__title {
         display: flex;
         justify-content: space-between;
         width: 100%;
         font-family: 'Adamina', serif;
 
-        .article__title-line {
-            width: 250px;
-        }
-
         .article__title-line--flip {
             transform: scaleX(-1);
         }
-
+        
         .article__title-text {
             font-size: x-large;
             font-weight: bold;
@@ -71,52 +61,14 @@ $menu2-orange:#C67412;
     }
 
     .article__content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin: 5%;
-
-        .article__content__item {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 100%;
-            margin: 1%;
-        }
-
         .article__content__item__description {
             font-family: 'Adamina', serif;
         }
-
-        .article__content__item__price {
-            font-weight: bold;
-        }
     }
 }
 
 
 
-.header-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .header-menu__note {
-        height: 100px;
-    }
-
-    .header-menu__title {
-        font-size: 2em;
-        font-family: 'Laila', serif;
-        background: linear-gradient(135deg, #d8852e, #905BFD);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: bolder;
-    }
-}
 
 .footer-menu {
     display: flex;
@@ -133,46 +85,4 @@ $menu2-orange:#C67412;
         font-family: 'Devonshire', cursive;
         font-size: 1.6em;
     }
-}
-
-
-
-@media all and (max-width: 500px) {
-    .header {
-        width: auto;
-    }
-
-    .mainImage {
-        width: 100vw;
-    }
-
-    .menu1-full {
-        width: 100vw;
-        height: auto;
-    }
-
-    .menu-title {
-        width: 100%;
-    }
-
-    .article__title-line {
-        width: 10%;
-    }
-
-    .header-menu__note {
-        height: auto;
-        // height: 100px;
-    }
-
-    .footer {
-        height: 5vh;
-
-        .footer-menu__note {
-            height: auto;
-            // height: 50px;
-            // margin-right: 1em;
-        }
-    }
-
-
-}
+// }@import 'menus-media-queries.scss';

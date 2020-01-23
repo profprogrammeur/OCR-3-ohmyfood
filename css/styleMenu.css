@@ -1,0 +1,143 @@
+.background-color-menu1 {
+  background-color: #FCDFDB;
+}
+
+.background-color-menu2 {
+  background-color: #FFF5FE;
+}
+
+.background-color-menu3 {
+  background-color: #EDEFEF;
+}
+
+.background-color-menu4 {
+  background-color: #fdfffd;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.menu-full {
+  height: 1684px;
+  width: 1190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kalam", cursive;
+  padding: 3% 0 3% 0;
+  box-shadow: 0 0 10px grey;
+}
+
+.menu-title {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 3%;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10%;
+  width: auto;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  width: 90%;
+}
+.article .article__title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.article .article__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 5%;
+}
+@media only screen and (max-width: 500px) {
+  .article .article__content {
+    width: 100%;
+  }
+}
+.article .article__content .article__content__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1%;
+}
+.article .article__content .article__content__item__price {
+  font-size: large;
+}
+@media only screen and (max-width: 500px) {
+  .article .article__content .article__content__item__price {
+    font-size: 0.9rem;
+    margin-left: 5%;
+  }
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-menu .footer-menu__note {
+  height: 50px;
+  margin-right: 1em;
+}
+.footer-menu .footer-menu__title {
+  font-family: "Devonshire", cursive;
+  font-size: 1.6em;
+}
+
+.footer {
+  height: 7vh;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.article__title--underline::after {
+  content: "";
+  height: 5px;
+  width: 30%;
+  background-color: lightgrey;
+  transition: 1s ease all 0.3s;
+  left: 35%;
+  position: absolute;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.article__title:hover + .article__title--underline::after {
+  transform: scaleX(1);
+}
+
+/*# sourceMappingURL=styleMenu.css.map */

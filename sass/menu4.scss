@@ -1,0 +1,48 @@
+
+// @use 'menus-media-queries.scss';
+
+
+
+// MENU'S HEADER
+
+.header-menu {
+    .header-menu__title {
+        font-size: 3em;
+        font-family: "Kaushan Script", cursive;
+        background: linear-gradient(135deg, #3d923a, #beff7f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 5px;       
+    }
+}
+
+// SPECIAL COLOR STYLES FOR LINES AND ARTICLE__TITLE
+span {
+    -webkit-mask: url(../svg/line-4.svg);
+    //   display: inline-block;
+    background: linear-gradient(135deg, #3d923a, #beff7f);
+    -webkit-mask-size: 300px;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
+
+
+// MAIN STYLES FOR ARTICLES
+.article {
+    .article__title {
+        .article__title-line {
+            width: 400px;
+        }
+
+        .article__title-line--flip {
+            transform: scaleX(-1);
+        }
+
+        .article__title-text {
+            font-size: large;
+        }
+    }
+}
+
+
