@@ -24,5 +24,8 @@ span {
 .article .article__title .article__title-text {
   font-size: large;
 }
+.article .article__title--underline::after {
+  background-color: #7DC85D;
+}
 
 /*# sourceMappingURL=menu4.css.map */

@@ -203,6 +203,11 @@ button {
   font-weight: bolder;
   font-size: xx-large;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 .logo-anchor {
@@ -254,7 +259,7 @@ button {
 
 .thumbnail-container:hover .menu__thumbnail {
   transform: scale(1.2);
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 .menu4__thumbnail--title {

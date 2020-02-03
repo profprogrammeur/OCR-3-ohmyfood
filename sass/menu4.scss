@@ -35,4 +35,7 @@ span {
       font-size: large;
     }
   }
+  .article__title--underline::after {
+            background-color: #7DC85D;
+        }
 }

@@ -1,31 +1,40 @@
 .header-menu .header-menu__title {
   font-size: 2em;
   font-family: "Laila", serif;
-  background: linear-gradient(135deg, #d8852e, #905BFD);
+  background: linear-gradient(135deg, #d8852e, #905bfd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
 }
 
 .article__starter {
-  color: #C67412;
+  color: #c67412;
 }
 .article__starter .article__title-line {
   filter: invert(55%) sepia(41%) saturate(6882%) hue-rotate(15deg) brightness(97%) contrast(86%);
 }
+.article__starter .article__title--underline::after {
+  background-color: #c67412;
+}
 
 .article__main-course {
-  color: #A56799;
+  color: #a56799;
 }
 .article__main-course .article__title-line {
   filter: invert(48%) sepia(18%) saturate(1014%) hue-rotate(260deg) brightness(93%) contrast(86%);
 }
+.article__main-course .article__title--underline::after {
+  background-color: #a56799;
+}
 
 .article__dessert {
-  color: #6E4CCC;
+  color: #6e4ccc;
 }
 .article__dessert .article__title-line {
   filter: invert(36%) sepia(13%) saturate(7486%) hue-rotate(235deg) brightness(83%) contrast(91%);
+}
+.article__dessert .article__title--underline::after {
+  background-color: #6e4ccc;
 }
 
 .article .article__title {

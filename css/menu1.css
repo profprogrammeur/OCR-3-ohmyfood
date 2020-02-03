@@ -16,5 +16,8 @@
 .article .article__content {
   width: 100%;
 }
+.article .article__title--underline::after {
+  background-color: black;
+}
 
 /*# sourceMappingURL=menu1.css.map */
