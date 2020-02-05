@@ -6,17 +6,18 @@
   font-size: 2em;
 }
 
-.article {
+.section {
   width: 80%;
+  margin: 0;
 }
-.article .article__title .article__title-text {
+.section .section__title .section__title-text {
   font-size: x-large;
   font-weight: bold;
 }
-.article .article__content {
+.section .section__content {
   width: 100%;
 }
-.article .article__title--underline::after {
+.section .section__title--underline::after {
   background-color: black;
 }
 

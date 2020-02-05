@@ -11,31 +11,30 @@
   }
 }
 
-// SPECIAL COLOR STYLES FOR LINES AND ARTICLE__TITLE
-span {
-  -webkit-mask: url(../svg/line-4.svg);
-  background: linear-gradient(135deg, #3d923a, #beff7f);
-  -webkit-mask-size: 300px;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-}
-
-// MAIN STYLES FOR ARTICLES
-.article {
-  .article__title {
-    .article__title-line {
+// MAIN STYLES FOR sectionS
+.section {
+  .section__title {
+    // SPECIAL COLOR STYLES FOR LINES AND section__TITLE
+    .section__title-line--gradient {
+      -webkit-mask: url(../svg/line-4.svg);
+      background: linear-gradient(135deg, #3d923a, #beff7f);
+      -webkit-mask-size: 300px;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+    }
+    .section__title-line {
       width: 400px;
     }
 
-    .article__title-line--flip {
+    .section__title-line--flip {
       transform: scaleX(-1);
     }
 
-    .article__title-text {
+    .section__title-text {
       font-size: large;
     }
   }
-  .article__title--underline::after {
-            background-color: #7DC85D;
-        }
+  .section__title--underline::after {
+    background-color: #7dc85d;
+  }
 }

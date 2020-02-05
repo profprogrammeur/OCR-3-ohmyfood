@@ -14,23 +14,24 @@
     }
 }
 
-// MAIN STYLES FOR ARTICLES
+// MAIN STYLES FOR sectionS
 
-.article {
+.section {
     width: 80%;
+    margin: 0;
 
-    .article__title {
-        .article__title-text {
+    .section__title {
+        .section__title-text {
             font-size: x-large;
             font-weight: bold;
         }
     }
 
-    .article__content {
+    .section__content {
         width: 100%;
     }
 
-    .article__title--underline::after {
+    .section__title--underline::after {
             background-color: black;
         }
 

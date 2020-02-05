@@ -59,7 +59,7 @@
   width: auto;
 }
 
-.article {
+.section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,15 +67,15 @@
   margin: 5%;
   width: 90%;
 }
-.article .article__title {
+.section .section__title {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-.article .article__title .article__title-line {
+.section .section__title .section__title-line {
   width: 25%;
 }
-.article .article__content {
+.section .section__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,22 +84,22 @@
   margin: 5%;
 }
 @media only screen and (max-width: 500px) {
-  .article .article__content {
+  .section .section__content {
     width: 100%;
   }
 }
-.article .article__content .article__content__item {
+.section .section__content .section__content__item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   margin: 1%;
 }
-.article .article__content .article__content__item__price {
+.section .section__content .section__content__item__price {
   font-size: large;
 }
 @media only screen and (max-width: 500px) {
-  .article .article__content .article__content__item__price {
+  .section .section__content .section__content__item__price {
     font-size: 0.9rem;
     margin-left: 5%;
   }
@@ -127,19 +127,19 @@
   bottom: 0;
 }
 
-.article__title--underline::after {
+.section__title--underline::after {
   content: "";
-  height: 5px;
-  width: 30%;
+  height: 3px;
+  width: 20%;
   background-color: lightgrey;
   transition: 1s ease all 0.3s;
-  left: 35%;
+  left: 40%;
   position: absolute;
   transform-origin: left;
   transform: scaleX(0);
 }
 
-.article__title:hover + .article__title--underline::after {
+.section__title:hover + .section__title--underline::after {
   transform: scaleX(1);
 }
 
@@ -152,8 +152,9 @@ body {
   width: 100%;
 }
 
-button {
-  border: none;
+.yellow {
+  text-decoration: none;
+  color: #fdcb46;
 }
 
 .contact,
@@ -180,8 +181,7 @@ button {
 
 .header,
 .footer,
-.soon-button,
-button {
+.soon-button {
   background-color: #579c87;
   color: #fdcb46;
 }

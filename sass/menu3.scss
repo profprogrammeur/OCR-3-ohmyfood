@@ -12,43 +12,43 @@
     }
 }
 
-// SPECIAL COLOR STYLES FOR LINES AND ARTICLE__TITLE
+// SPECIAL COLOR STYLES FOR LINES AND section__TITLE
 
-.article__starter {
-    .article__title-line {
+.section__starter {
+    .section__title-line {
         filter: invert(14%) sepia(84%) saturate(3813%) hue-rotate(229deg) brightness(95%) contrast(133%);
     }
-    .article__title--underline::after {
+    .section__title--underline::after {
   background-color: #0022db;
 }
 }
 
-.article__main-course {
-    .article__title-line {
+.section__main-course {
+    .section__title-line {
         filter: invert(30%) sepia(59%) saturate(4991%) hue-rotate(205deg) brightness(99%) contrast(95%);
     }
-    .article__title--underline::after {
+    .section__title--underline::after {
   background-color: #066FF1;
 }
 }
 
-.article__dessert {
-    .article__title-line {
+.section__dessert {
+    .section__title-line {
         filter: invert(50%) sepia(49%) saturate(7492%) hue-rotate(194deg) brightness(104%) contrast(97%);
     }
-    .article__title--underline::after {
+    .section__title--underline::after {
   background-color: #0889fb;
 }
 }
 
-// MAIN STYLES FOR ARTICLES
-.article {
-    .article__title {
-        .article__title-line--flip {
+// MAIN STYLES FOR sectionS
+.section {
+    .section__title {
+        .section__title-line--flip {
             transform: scaleX(-1);
         }
 
-        .article__title-text {
+        .section__title-text {
             font-size: medium;
         }
     }

@@ -9,8 +9,9 @@ body {
   width: 100%;
 }
 
-button {
-  border: none;
+.yellow {
+  text-decoration: none;
+  color: #fdcb46;
 }
 
 .contact,
@@ -37,8 +38,7 @@ button {
 
 .header,
 .footer,
-.soon-button,
-button {
+.soon-button {
   background-color: #579c87;
   color: #fdcb46;
 }
@@ -210,6 +210,7 @@ button {
 .wiggle {
   animation: wiggle 3s linear infinite;
   overflow: hidden;
+  
 }
 
 /* Keyframes WIGGLE*/
