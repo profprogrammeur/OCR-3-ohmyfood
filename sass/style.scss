@@ -149,14 +149,15 @@ a {
 	opacity: 0.5;
 }
 
-// font menu1
+.header-menu__note {
+	height: 10%;
+}
+
 .font-devon {
 	font-family: "Devonshire", cursive;
 	font-size: 1.4em;
-	// padding: 5px;
 }
 
-// .menu2__thumbnail--title {
 .font-laila {
 	font-family: "Laila", cursive;
 	font-size: 1.2em;
@@ -166,7 +167,6 @@ a {
 	padding: 5px;
 }
 
-// .menu3__thumbnail--title {
 .font-dancing {
 	font-family: "Dancing Script", cursive;
 	font-size: 1.3em;
@@ -175,7 +175,7 @@ a {
 	-webkit-text-fill-color: transparent;
 	padding: 5px;
 }
-// .menu4__thumbnail--title {
+
 .font-kaushan {
 	font-size: 1.2em;
 	font-family: "Kaushan Script", cursive;
@@ -185,34 +185,16 @@ a {
 	padding: 5px;
 }
 
-.header-menu__note {
-	height: 10%;
-}
-
-// .menu1__thumbnail--subtitle {
 .font-kalam {
 	font-family: "Kalam", cursive;
 	font-size: 1.5em;
 }
 
-// .menu2__thumbnail--subtitle {
 .font-adamina {
 	font-family: "Adamina", cursive;
 	font-size: 1.5em;
 	color: #d8852e;
 }
-
-// .menu3__thumbnail--subtitle {
-// 	font-family: "Kalam", cursive;
-// 	font-size: 1.5em;
-// 	color: #0887fb;
-// }
-
-// .menu4__thumbnail--subtitle {
-// 	font-family: "Kalam", cursive;
-// 	font-size: 1.5em;
-// 	color: #72bf56;
-// }
 
 .loading:after {
 	content: " .";

@@ -285,6 +285,10 @@ a {
   opacity: 0.5;
 }
 
+.header-menu__note {
+  height: 10%;
+}
+
 .font-devon {
   font-family: "Devonshire", cursive;
   font-size: 1.4em;
@@ -315,10 +319,6 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 5px;
-}
-
-.header-menu__note {
-  height: 10%;
 }
 
 .font-kalam {
