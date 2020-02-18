@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px), screen and (max-height: 800px) {
   .logo {
     font-size: 1.5rem;
   }
@@ -29,11 +29,11 @@
     width: 95%;
   }
 
-  .article__content {
+  .section__content {
     font-size: 0.8rem;
   }
 
-  .article__title-text {
+  .section__title-text {
     font-size: 0.8rem !important;
     text-align: center;
   }

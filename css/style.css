@@ -81,12 +81,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: 5%;
-}
-@media only screen and (max-width: 500px) {
-  .section .section__content {
-    width: 100%;
-  }
+  padding: 0;
 }
 .section .section__content .section__content__item {
   display: flex;
@@ -174,6 +169,7 @@ h2 {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  text-align: center;
 }
 
 a {
@@ -387,7 +383,7 @@ a {
   transform-origin: 50% 5em;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 800px) {
   .logo {
     font-size: 1.5rem;
   }

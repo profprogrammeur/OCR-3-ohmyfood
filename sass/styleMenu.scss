@@ -1,145 +1,146 @@
 .background-color-menu1 {
-  background-color: #fcdfdb;
+	background-color: #fcdfdb;
 }
 
 .background-color-menu2 {
-  background-color: #fff5fe;
+	background-color: #fff5fe;
 }
 
 .background-color-menu3 {
-  background-color: #edefef;
+	background-color: #edefef;
 }
 
 .background-color-menu4 {
-  background-color: #fdfffd;
+	background-color: #fdfffd;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .header {
-  width: 100%;
+	width: 100%;
 }
 
 .menu-full {
-  height: 1684px;
-  width: 1190px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Kalam", cursive;
-  padding: 3% 0 3% 0;
-  box-shadow: 0 0 10px grey;
+	height: 1684px;
+	width: 1190px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Kalam", cursive;
+	padding: 3% 0 3% 0;
+	box-shadow: 0 0 10px grey;
 }
 
 .menu-title {
-  text-align: center;
-  font-size: x-large;
-  font-weight: bolder;
-  margin: 3%;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bolder;
+	margin: 3%;
 }
 
 .header-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .container-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 10%;
-  width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 10%;
+	width: auto;
 }
 
 .section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5%;
-  width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5%;
+	width: 90%;
 
-  .section__title {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    .section__title-line {
-      width: 25%;
-    }
-  }
+	.section__title {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		.section__title-line {
+			width: 25%;
+		}
+	}
 
-  .section__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 5%;
-    @media only screen and (max-width: 500px) {
-      width: 100%;
-    }
-    .section__content__item {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 100%;
-      margin: 1%;
-    }
-    .section__content__item__price {
-      font-size: large;
+	.section__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 80%;
+		padding: 0;
+		// margin: 5%;
+		// @media only screen and (max-width: 500px) {
+		//   width: 100%;
+		// }
+		.section__content__item {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+			margin: 1%;
+		}
+		.section__content__item__price {
+			font-size: large;
 
-    @media only screen and (max-width: 500px) {
-        font-size: 0.9rem;
-        margin-left: 5%;
-      }
-    }
-  }
+			@media only screen and (max-width: 500px) {
+				font-size: 0.9rem;
+				margin-left: 5%;
+			}
+		}
+	}
 }
 
 .footer-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 
-  .footer-menu__note {
-    height: 50px;
-    margin-right: 1em;
-  }
+	.footer-menu__note {
+		height: 50px;
+		margin-right: 1em;
+	}
 
-  .footer-menu__title {
-    font-family: "Devonshire", cursive;
-    font-size: 1.6em;
-  }
+	.footer-menu__title {
+		font-family: "Devonshire", cursive;
+		font-size: 1.6em;
+	}
 }
 
 .footer {
-  height: 7vh;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+	height: 7vh;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
 }
 
 .section__title--underline::after {
-  content: "";
-  height: 3px;
-  width: 20%;
-  background-color: lightgrey;
-  transition: 1s ease all 0.3s;
-  left: 40%;
-  position: absolute;
-  transform-origin: left;
-  transform: scaleX(0);
+	content: "";
+	height: 3px;
+	width: 20%;
+	background-color: lightgrey;
+	transition: 1s ease all 0.3s;
+	left: 40%;
+	position: absolute;
+	transform-origin: left;
+	transform: scaleX(0);
 }
 
 .section__title:hover + .section__title--underline::after {
-  transform: scaleX(1);
+	transform: scaleX(1);
 }
